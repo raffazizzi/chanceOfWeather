@@ -1,0 +1,28 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Chance of Weather</title>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="lib/verovio-toolkit-light.js"></script>
+        <script src="src/index.js"> </script>
+    </head>
+    <body>
+      <div id="title" style="float: left">
+        <h3>Chance of Weather - Joseph L. Arkfeld</h3>
+        <h4>coded by Raffaele Viglianti</h4>
+      </div>
+        <div id="info" style="float:right">
+          <em>Location</em>: <span id="location"></span><br/>
+          <em>Weather</em>: <span id="weather"></span><br/>
+          <em>Temperature</em>: <span id="temp"></span><br/>
+          <em>Wind</em>: <span id="wind"></span><br/>
+          <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+          <hr/>
+          <div id="change">
+            Set weather location: <input type="text" value="Vienna, Austria" id="newLoc"/> <button id="changeWeather">Go</buttom>
+          </div>
+        </div>
+        <div id="loading" style="padding-top: 5em">Loading score...</div>
+        <div id="output"></div>
+    </body>
+</html>
