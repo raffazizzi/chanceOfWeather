@@ -30,13 +30,14 @@ if (navigator.geolocation) {
 }
 
 var vrvToolkit = new verovio.toolkit();
+var currentMov = "clear-day"
 
 $(document).ready(function(){
  $("#changeWeather").click(function(e){
    e.preventDefault();
    var newLoc = $("#newLoc").val()
    if (!newLoc) {
-     navigator.geolocation.getCurrentPosition(getWeatherForPos);
+     navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,currentMov)});
    }
    else {
      getWeatherFor(newLoc);
@@ -45,21 +46,20 @@ $(document).ready(function(){
 
  $("#showClearDay").click(function(e){
    e.preventDefault();
-   console.log('zz')
-   getWeatherFor(navigator.geolocation.getCurrentPosition(getWeatherForPos));
+   currentMov = 'clear-day'
+   getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'clear-day')}));
  })
 
  $("#showOverCastRainyNight").click(function(e){
    e.preventDefault();
-   console.log('h')
+   currentMov = 'overcast-rainy-night'
    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'overcast-rainy-night')}));
  })
 
 })
 
 function getWeatherForPos(position, movement) {
- movement = movement ? movement : "clear-day"
- console.log('gwf',movement)
+ movement = movement ? movement : currentMov
  var api = "https://api.darksky.net/forecast/"
  var lat = position.coords.latitude
  var lon = position.coords.longitude
@@ -78,7 +78,7 @@ $.ajax({
 }
 
 function getWeatherFor(query, movement) {
-  movement = movement ? movement : "clear-day"
+  movement = movement ? movement : currentMov
  $.get("https://api.mapbox.com/geocoding/v5/mapbox.places/"+query+".json?access_token=pk.eyJ1IjoicmFmZmF6aXp6aSIsImEiOiJNUlY2OG9zIn0.NycTsYGAcmacq2LrIvtU6A", function(geodata){
    var position = {
      coords : {
@@ -138,6 +138,7 @@ function updateInfo(movement, data){
 
 function renderScoreWithSource(movement, source){
  console.log(movement, source)
+ console.log("./rdg[contains(@source, '#"+movement+source+"')]")
 
   $("#output").empty()
    var options = JSON.stringify({
@@ -147,7 +148,7 @@ function renderScoreWithSource(movement, source){
           adjustPageHeight: 1,
           border: 50,
           scale: 35,
-          appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
+          appXPathQuery: "./rdg[contains(@source, '#"+movement+source+"')]"
       });
       vrvToolkit.setOptions(options);
 
