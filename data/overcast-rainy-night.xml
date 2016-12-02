@@ -16,7 +16,7 @@
             </availability>
         </pubStmt>
         <sourceDesc>
-            <source xml:id="overcast-rainy-nightW0to10Tlt42"></source>
+            <source xml:id="overcast-rainy-nightW0to11Tlt42"></source>
             <source xml:id="overcast-rainy-nightW11to25Tlt42"></source>
             <source xml:id="overcast-rainy-nightWgt26Tlt42"></source>
         </sourceDesc>
@@ -62,7 +62,7 @@
                     </staffGrp>
                 </scoreDef>  
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10T42gt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11T42gt80">
                         <section n="1" xml:base="Overcast_Rainy_Night_1.xml" xml:id="m-37">
     <scoreDef>
         <staffGrp n="1" symbol="brace">
@@ -71,8 +71,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -99,7 +99,7 @@
                 <dir place="above" staff="2" startid="#orn1c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -182,15 +182,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 
@@ -839,8 +839,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -868,7 +868,7 @@
                 <dir place="above" staff="2" startid="#orn2c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -937,7 +937,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-504">2 </dir>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -945,7 +945,7 @@
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T24to79 #overcast-rainy-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -1773,8 +1773,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -1797,7 +1797,7 @@
                 <dir place="above" staff="2" startid="#orn3c1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -1822,7 +1822,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1044">
                 <staff n="1" xml:id="m-1046">
                     <layer n="1" xml:id="m-1047">
@@ -1875,7 +1875,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1049">3</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42"></rdg>
@@ -2055,8 +2055,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2082,7 +2082,7 @@
     </app>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1118">
                 <staff n="1" xml:id="m-1119">
                     <layer n="1" xml:id="m-1120">
@@ -2160,7 +2160,7 @@
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -2677,7 +2677,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
             <measure right="invis" xml:id="m-1492">
                 <staff n="1" xml:id="m-1493">
                     <layer n="1" xml:id="m-1494">
@@ -2775,8 +2775,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2800,7 +2800,7 @@
                 <dir place="above" staff="2" startid="#orn5c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2826,7 +2826,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1518">
                 <staff n="1" xml:id="m-1520">
                     <layer n="1" xml:id="m-1521">
@@ -2859,7 +2859,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1522">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1523">5</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
@@ -3029,7 +3029,7 @@
     </measure>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure right="rptend" xml:id="m-1625">
                 <staff n="1" xml:id="m-1626">
                     <layer n="1" xml:id="m-1627">
@@ -3109,7 +3109,7 @@
 </section>
                         <section n="6" xml:base="Overcast_Rainy_Night_6.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3117,7 +3117,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3151,7 +3151,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3216,7 +3216,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1650">6</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -3575,7 +3575,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1912">
                 <staff n="1" xml:id="m-1913">
                     <layer n="1" xml:id="m-1914">
@@ -3661,8 +3661,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -3690,7 +3690,7 @@
                 <dir place="above" staff="2" startid="#orn7c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -3720,7 +3720,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1933">
                 <staff n="1" xml:id="m-1935">
                     <layer n="1" xml:id="m-1936">
@@ -3763,7 +3763,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="m-1954"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="m-1955">(p) </dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
@@ -3930,7 +3930,7 @@
 </section>
                         <section n="8" xml:base="Overcast_Rainy_Night_8.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -3938,7 +3938,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3969,7 +3969,7 @@
                 <dir place="above" staff="2" startid="#orn8c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -4424,8 +4424,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4452,7 +4452,7 @@
                 <dir place="above" staff="2" startid="#orn9c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4530,7 +4530,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2286">9</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -4749,8 +4749,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4774,7 +4774,7 @@
                 <dir place="below" staff="2" startid="#orn9c1"><rend fontsize="800pt" fontstyle="normal">_</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4800,7 +4800,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-2461">
                 <staff n="1" xml:id="m-2462">           
                     <layer n="1" xml:id="m-2463">
@@ -4852,7 +4852,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2465"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="m-2467">(p)</dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
@@ -5013,7 +5013,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79  #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79  #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure right="rptend" xml:id="m-2563">
                 <staff n="1" xml:id="m-2564">
                     <layer n="1" xml:id="m-2565">
@@ -5049,7 +5049,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="m-2575"></octave>
                 <app>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -5104,8 +5104,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5132,7 +5132,7 @@
                 <dir place="above" staff="2" startid="#orn1c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5215,15 +5215,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 
@@ -5872,8 +5872,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5901,7 +5901,7 @@
                 <dir place="above" staff="2" startid="#orn7c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5931,7 +5931,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1933">
                 <staff n="1" xml:id="m-1935">
                     <layer n="1" xml:id="m-1936">
@@ -5974,7 +5974,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="m-1954"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="m-1955">(p) </dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
@@ -6147,8 +6147,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6175,7 +6175,7 @@
                 <dir place="above" staff="2" startid="#orn9c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6253,7 +6253,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2286">9</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -6472,8 +6472,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6496,7 +6496,7 @@
                 <dir place="above" staff="2" startid="#orn3c1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6521,7 +6521,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1044">
                 <staff n="1" xml:id="m-1046">
                     <layer n="1" xml:id="m-1047">
@@ -6574,7 +6574,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1049">3</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42"></rdg>
@@ -6754,8 +6754,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6781,7 +6781,7 @@
     </app>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1118">
                 <staff n="1" xml:id="m-1119">
                     <layer n="1" xml:id="m-1120">
@@ -6859,7 +6859,7 @@
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -7376,7 +7376,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
             <measure right="invis" xml:id="m-1492">
                 <staff n="1" xml:id="m-1493">
                     <layer n="1" xml:id="m-1494">
@@ -7474,8 +7474,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -7503,7 +7503,7 @@
                 <dir place="above" staff="2" startid="#orn2c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -7572,7 +7572,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-504">2 </dir>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -7580,7 +7580,7 @@
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T24to79 #overcast-rainy-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -8402,7 +8402,7 @@
 </section>
                         <section n="8" xml:base="Overcast_Rainy_Night_8.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -8410,7 +8410,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -8441,7 +8441,7 @@
                 <dir place="above" staff="2" startid="#orn8c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -8896,8 +8896,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -8921,7 +8921,7 @@
                 <dir place="above" staff="2" startid="#orn5c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -8947,7 +8947,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1518">
                 <staff n="1" xml:id="m-1520">
                     <layer n="1" xml:id="m-1521">
@@ -8980,7 +8980,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1522">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1523">5</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
@@ -9150,7 +9150,7 @@
     </measure>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure right="rptend" xml:id="m-1625">
                 <staff n="1" xml:id="m-1626">
                     <layer n="1" xml:id="m-1627">
@@ -9236,8 +9236,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -9261,7 +9261,7 @@
                 <dir place="below" staff="2" startid="#orn9c1"><rend fontsize="800pt" fontstyle="normal">_</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -9287,7 +9287,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-2461">
                 <staff n="1" xml:id="m-2462">           
                     <layer n="1" xml:id="m-2463">
@@ -9339,7 +9339,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2465"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="m-2467">(p)</dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
@@ -9500,7 +9500,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79  #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79  #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure right="rptend" xml:id="m-2563">
                 <staff n="1" xml:id="m-2564">
                     <layer n="1" xml:id="m-2565">
@@ -9536,7 +9536,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="m-2575"></octave>
                 <app>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -9583,7 +9583,7 @@
 </section>
                         <section n="6" xml:base="Overcast_Rainy_Night_6.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -9591,7 +9591,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -9625,7 +9625,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -9690,7 +9690,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1650">6</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -10049,7 +10049,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1912">
                 <staff n="1" xml:id="m-1913">
                     <layer n="1" xml:id="m-1914">
@@ -10137,8 +10137,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -10166,7 +10166,7 @@
                 <dir place="above" staff="2" startid="#orn2c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -10235,7 +10235,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-504">2 </dir>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42                    #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79                    #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -10243,7 +10243,7 @@
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T24to79 #overcast-rainy-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -11071,8 +11071,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -11098,7 +11098,7 @@
     </app>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1118">
                 <staff n="1" xml:id="m-1119">
                     <layer n="1" xml:id="m-1120">
@@ -11176,7 +11176,7 @@
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                          #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -11693,7 +11693,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
             <measure right="invis" xml:id="m-1492">
                 <staff n="1" xml:id="m-1493">
                     <layer n="1" xml:id="m-1494">
@@ -11785,7 +11785,7 @@
 </section>
                         <section n="6" xml:base="Overcast_Rainy_Night_6.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -11793,7 +11793,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -11827,7 +11827,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -11892,7 +11892,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1650">6</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -12251,7 +12251,7 @@
     </measure>
     <app>
         
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis" xml:id="m-1912">
                 <staff n="1" xml:id="m-1913">
                     <layer n="1" xml:id="m-1914">
@@ -12337,8 +12337,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -12362,7 +12362,7 @@
                 <dir place="above" staff="2" startid="#orn5c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -12388,7 +12388,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1518">
                 <staff n="1" xml:id="m-1520">
                     <layer n="1" xml:id="m-1521">
@@ -12421,7 +12421,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1522">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1523">5</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
@@ -12591,7 +12591,7 @@
     </measure>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure right="rptend" xml:id="m-1625">
                 <staff n="1" xml:id="m-1626">
                     <layer n="1" xml:id="m-1627">
@@ -12671,7 +12671,7 @@
 </section>
                         <section n="8" xml:base="Overcast_Rainy_Night_8.xml">
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -12679,7 +12679,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -12710,7 +12710,7 @@
                 <dir place="above" staff="2" startid="#orn8c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -13165,8 +13165,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13193,7 +13193,7 @@
                 <dir place="above" staff="2" startid="#orn1c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13276,15 +13276,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42">
+            <rdg source="#overcast-rainy-nightW0to11Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="m-57">pedal freely</dir>
                 
@@ -13933,8 +13933,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13957,7 +13957,7 @@
                 <dir place="above" staff="2" startid="#orn3c1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13982,7 +13982,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1044">
                 <staff n="1" xml:id="m-1046">
                     <layer n="1" xml:id="m-1047">
@@ -14035,7 +14035,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-1049">3</dir>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42"></rdg>
@@ -14215,8 +14215,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14243,7 +14243,7 @@
                 <dir place="above" staff="2" startid="#orn9c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14321,7 +14321,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2286">9</dir>
         <app>
-            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
+            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                  #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80"></rdg>
             <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -14540,8 +14540,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14565,7 +14565,7 @@
                 <dir place="below" staff="2" startid="#orn9c1"><rend fontsize="800pt" fontstyle="normal">_</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14591,7 +14591,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-2461">
                 <staff n="1" xml:id="m-2462">           
                     <layer n="1" xml:id="m-2463">
@@ -14643,7 +14643,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-2465"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="m-2467">(p)</dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
@@ -14804,7 +14804,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79  #overcast-rainy-nightW0to10Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79  #overcast-rainy-nightW0to11Tgt80             #overcast-rainy-nightW011to25Tlt42 #overcast-rainy-nightW011to25T42to79 #overcast-rainy-nightW011to25Tgt80">
             <measure right="rptend" xml:id="m-2563">
                 <staff n="1" xml:id="m-2564">
                     <layer n="1" xml:id="m-2565">
@@ -14840,7 +14840,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="m-2575"></octave>
                 <app>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80"></rdg>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80                         #overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -14893,8 +14893,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14922,7 +14922,7 @@
                 <dir place="above" staff="2" startid="#orn7c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14952,7 +14952,7 @@
     </app>
     
     <app>
-        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW0to10Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
+        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW0to11Tgt80              #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-1933">
                 <staff n="1" xml:id="m-1935">
                     <layer n="1" xml:id="m-1936">
@@ -14995,7 +14995,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="m-1954"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="m-1955">(p) </dynam>
                 <app>
-                    <rdg source="#overcast-rainy-nightW0to10Tlt42">
+                    <rdg source="#overcast-rainy-nightW0to11Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#overcast-rainy-nightW11to25Tlt42">
