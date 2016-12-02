@@ -42,9 +42,24 @@ $(document).ready(function(){
      getWeatherFor(newLoc);
    }
  })
+
+ $("#showClearDay").click(function(e){
+   e.preventDefault();
+   console.log('zz')
+   getWeatherFor(navigator.geolocation.getCurrentPosition(getWeatherForPos));
+ })
+
+ $("#showOverCastRainyNight").click(function(e){
+   e.preventDefault();
+   console.log('h')
+   getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'overcast-rainy-night')}));
+ })
+
 })
 
-function getWeatherForPos(position) {
+function getWeatherForPos(position, movement) {
+ movement = movement ? movement : "clear-day"
+ console.log('gwf',movement)
  var api = "https://api.darksky.net/forecast/"
  var lat = position.coords.latitude
  var lon = position.coords.longitude
@@ -57,12 +72,13 @@ $.ajax({
   dataType: "jsonp"
 }).done(function(data){
   var source = getSourceName(data)
-  renderScoreWithSource(source)
-  updateInfo(data)
+  renderScoreWithSource(movement, source)
+  updateInfo(movement, data)
 })
 }
 
-function getWeatherFor(query) {
+function getWeatherFor(query, movement) {
+  movement = movement ? movement : "clear-day"
  $.get("https://api.mapbox.com/geocoding/v5/mapbox.places/"+query+".json?access_token=pk.eyJ1IjoicmFmZmF6aXp6aSIsImEiOiJNUlY2OG9zIn0.NycTsYGAcmacq2LrIvtU6A", function(geodata){
    var position = {
      coords : {
@@ -70,12 +86,13 @@ function getWeatherFor(query) {
        longitude : geodata.features[0].geometry.coordinates[0]
      }
    }
-   getWeatherForPos(position)
+   getWeatherForPos(position, movement)
  })
 }
 
 function getSourceName(data){
-  var source = "#clear-day" //Eventually: data.currently.icon
+
+  var source = "" //Eventually: data.currently.icon
   var w = data.currently.windSpeed
   if (w <= 11) {
     source += "W0to11"
@@ -100,7 +117,7 @@ function getSourceName(data){
   return source
 }
 
-function updateInfo(data){
+function updateInfo(movement, data){
  $("#loading").show();
 
  getSourceName(data);
@@ -113,66 +130,71 @@ function updateInfo(data){
    }
    $("#location").text(loctext)
  })
- $("#weather").text(data.currently.icon + " (currently showing Clear Day score only)")
+ $("#weather").text(data.currently.icon + " (Sample version is actually showing "+ movement +")")
  // $("#weather").html("<img title='"+data.weather[0].description+"' height='30' width='30' src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'/>")
  $("#wind").text(data.currently.windSpeed)
  $("#temp").text(data.currently.temperature)
 }
 
-function renderScoreWithSource(source){
-  console.log(source)
- $("#output").empty()
-  var options = JSON.stringify({
-         pageWidth: $(document).width() * 100 / 36,
-         pageHeight: $(document).height() * 100 / 40, //$(document).height(),
-         ignoreLayout: 1,
-         adjustPageHeight: 1,
-         border: 50,
-         scale: 35,
-         appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
-     });
-     vrvToolkit.setOptions(options);
+function renderScoreWithSource(movement, source){
+ console.log(movement, source)
 
- $.get( "data/chanceOfWeather.xml", function( data ) {
-     vrvToolkit.loadData( data + "\n", "");
-     var pgs = vrvToolkit.getPageCount();
-     // var svg = vrvToolkit.renderPage(1);
+  $("#output").empty()
+   var options = JSON.stringify({
+          pageWidth: $(document).width() * 100 / 36,
+          pageHeight: $(document).height() * 100 / 40,
+          ignoreLayout: 1,
+          adjustPageHeight: 1,
+          border: 50,
+          scale: 35,
+          appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
+      });
+      vrvToolkit.setOptions(options);
 
-     $("#output").append(svg);
-     for (var i = 1; i <= pgs; i++){
-         var svg = vrvToolkit.renderPage(i);
+  $.get( "data/"+movement+".xml", function( data ) {
+      vrvToolkit.loadData( data + "\n", "");
+      var pgs = vrvToolkit.getPageCount();
+      // var svg = vrvToolkit.renderPage(1);
 
-         $("#output").append(svg);
-         $("#loading").hide();
-     }
- }, 'text');
+      $("#output").append(svg);
+      for (var i = 1; i <= pgs; i++){
+          var svg = vrvToolkit.renderPage(i);
+
+          $("#output").append(svg);
+          $("#loading").hide();
+      }
+      postRendering();
+  }, 'text');
 }
 
+function postRendering(source) {
+}
 
-// $(document).ready(function(){
-//     $("#output").empty()
-//     var options = JSON.stringify({
-//       pageWidth: $(document).width() * 100 / 36,
-//       pageHeight: $(document).height() * 100 / 40, //$(document).height(),
-//       ignoreLayout: 1,
-//       adjustPageHeight: 1,
-//       border: 50,
-//       scale: 35
-// //          appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
-//   });
-//   vrvToolkit.setOptions(options);
-//
-//     $.get( "data/chanceOfWeather.xml", function( data ) {
-//       vrvToolkit.loadData( data + "\n", "");
-//       var pgs = vrvToolkit.getPageCount();
-//       // var svg = vrvToolkit.renderPage(1);
-//
-//       $("#output").append(svg);
-//       for (var i = 1; i <= pgs; i++){
-//           var svg = vrvToolkit.renderPage(i);
-//
-//           $("#output").append(svg);
-//           $("#loading").hide();
-//       }
-//     }, 'text');
-// })
+ // $(document).ready(function(){
+ // var vrvToolkit = new verovio.toolkit();
+ //     $("#output").empty()
+ //     var options = JSON.stringify({
+ //       pageWidth: $(document).width() * 100 / 36,
+ //       pageHeight: $(document).height() * 100 / 40, //$(document).height(),
+ //       ignoreLayout: 1,
+ //       adjustPageHeight: 1,
+ //       border: 50,
+ //       scale: 35
+ // //          appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
+ //   });
+ //   vrvToolkit.setOptions(options);
+ //
+ //     $.get( "data/Overcast_Rainy_Night.xml", function( data ) {
+ //       vrvToolkit.loadData( data + "\n", "");
+ //       var pgs = vrvToolkit.getPageCount();
+ //       // var svg = vrvToolkit.renderPage(1);
+ //
+ //       $("#output").append(svg);
+ //       for (var i = 1; i <= pgs; i++){
+ //           var svg = vrvToolkit.renderPage(i);
+ //
+ //           $("#output").append(svg);
+ //           $("#loading").hide();
+ //       }
+ //     }, 'text');
+ // })
