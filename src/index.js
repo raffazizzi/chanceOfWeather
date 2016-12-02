@@ -94,26 +94,27 @@ function getSourceName(data){
 
   var source = "" //Eventually: data.currently.icon
   var w = data.currently.windSpeed
-  if (w <= 11) {
-    source += "W0to11"
-  }
-  else if (w > 11 && t <= 25) {
+  if (w > 11 && w <= 25) {
     source += "W11to25"
   }
   else if (w > 26) {
     source += "Wgt26"
   }
+  else {
+    source +"W0to11"
+  }
 
   var t = data.currently.temperature
-  if (t < 42) {
-    source += "Tlt42"
-  }
-  else if (t >= 42 && t <= 79) {
+  if (t >= 42 && t <= 79) {
     source += "T42to79"
   }
   else if (t > 79) {
     source += "Tgt80"
   }
+  else {
+    source += "Tlt42"
+  }
+
   return source
 }
 
