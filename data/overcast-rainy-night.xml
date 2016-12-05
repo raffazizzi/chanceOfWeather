@@ -827,8 +827,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="2" xml:base="Overcast_Rainy_Night_2.xml">
@@ -1761,8 +1761,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="3" xml:base="Overcast_Rainy_Night_3.xml">
@@ -1932,8 +1932,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -2040,8 +2040,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -2717,8 +2717,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -2761,8 +2761,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -3062,8 +3062,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -3099,8 +3099,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -3118,7 +3118,7 @@
             </scoreDef>
         </rdg>
         <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
-            <scoreDef>
+            <scoreDef>h
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -3151,7 +3151,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3608,8 +3608,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1.5" vo="8.75mm" xml:id="m-1923"></octave>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -3646,8 +3646,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -3822,8 +3822,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -3922,8 +3922,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -4412,8 +4412,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="9" xml:base="Overcast_Rainy_Night_9.xml">
@@ -4737,8 +4737,8 @@
         <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="3.5" vo="10.5mm" xml:id="m-2447"></octave>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="10" xml:base="Overcast_Rainy_Night_10.xml">
@@ -5860,8 +5860,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="7" xml:base="Overcast_Rainy_Night_7.xml">
@@ -6033,8 +6033,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -6133,8 +6133,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -6460,8 +6460,8 @@
         <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="3.5" vo="10.5mm" xml:id="m-2447"></octave>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="3" xml:base="Overcast_Rainy_Night_3.xml">
@@ -6631,8 +6631,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -6739,8 +6739,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -7416,8 +7416,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -7460,8 +7460,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -8396,8 +8396,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="8" xml:base="Overcast_Rainy_Night_8.xml">
@@ -8884,8 +8884,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>                        
                         <section n="5" xml:base="Overcast_Rainy_Night_5.xml">
@@ -9183,8 +9183,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -9220,8 +9220,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -9592,7 +9592,7 @@
             </scoreDef>
         </rdg>
         <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
-            <scoreDef>
+            <scoreDef>h
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -9625,7 +9625,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -10082,8 +10082,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1.5" vo="8.75mm" xml:id="m-1923"></octave>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -10120,8 +10120,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -11059,8 +11059,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="4" xml:base="Overcast_Rainy_Night_4.xml">
@@ -11733,8 +11733,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -11777,8 +11777,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="5"></breath>
                 <breath place="above" staff="2" tstamp="5"></breath>
-                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="5"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -11794,7 +11794,7 @@
             </scoreDef>
         </rdg>
         <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
-            <scoreDef>
+            <scoreDef>h
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -11827,7 +11827,7 @@
                 <dir place="above" staff="2" startid="#orn6c2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79">
+        <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -12284,8 +12284,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1.5" vo="8.75mm" xml:id="m-1923"></octave>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightW11to25Tgt80">
@@ -12322,8 +12322,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="3"></breath>
                 <breath place="above" staff="2" tstamp="3"></breath>
-                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="3"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -12624,8 +12624,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -12661,8 +12661,8 @@
                 <octave dis="8" dis.place="above" layer="1" staff="1" tstamp="2" tstamp2="3" vo="10.5mm" xml:id="m-1629"></octave>
                 <breath place="above" staff="1" tstamp="4"></breath>
                 <breath place="above" staff="2" tstamp="4"></breath>
-                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="4"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -13153,8 +13153,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="10"></breath>
         <breath place="above" staff="2" tstamp="10"></breath>
-        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="10"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="1" xml:base="Overcast_Rainy_Night_1.xml" xml:id="m-37">
@@ -13921,8 +13921,8 @@
         </staff>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>                        
                         <section n="3" xml:base="Overcast_Rainy_Night_3.xml">
@@ -14092,8 +14092,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -14200,8 +14200,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="9"></breath>
                 <breath place="above" staff="2" tstamp="9"></breath>
-                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="9"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
@@ -14528,8 +14528,8 @@
         <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="3.5" vo="10.5mm" xml:id="m-2447"></octave>
         <breath place="above" staff="1" tstamp="8"></breath>
         <breath place="above" staff="2" tstamp="8"></breath>
-        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+        <dir place="above" staff="1" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+        <dir place="above" staff="2" tstamp="8"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
     </measure>
 </section>
                         <section n="10" xml:base="Overcast_Rainy_Night_10.xml">
@@ -15054,8 +15054,8 @@
                 </staff>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
         <rdg source="#overcast-rainy-nightWgt26Tlt42 #overcast-rainy-nightWgt26T42to79 #overcast-rainy-nightWgt26Tgt80">
@@ -15154,8 +15154,8 @@
                 <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                 <breath place="above" staff="1" tstamp="16"></breath>
                 <breath place="above" staff="2" tstamp="16"></breath>
-                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
-                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">&#x1D112;</rend></dir>
+                <dir place="above" staff="1" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
+                <dir place="above" staff="2" tstamp="16"><rend fontsize="800pt" fontstyle="normal">’</rend></dir>
             </measure>
         </rdg>
     </app>
