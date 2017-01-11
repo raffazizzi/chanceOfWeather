@@ -75,6 +75,48 @@ $(document).ready(function(){
 
   $("#nextArea").click(nextPage);
 
+  $("#set-cancel").click(function(e){
+    $("#settings-cnt").collapse("toggle")
+    // return to location based score
+    clearHash();
+    navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,currentMov)});
+  });
+
+  $("#set-close").click(function(){
+    $("#settings-cnt").collapse("toggle")
+  })
+
+  $("#set-confirm").click(function(){
+    $("#settings-cnt").collapse("toggle")
+    // re-render with given parameters
+    var movement = $("#selMov").find(":selected").val();
+    var wind = $("#set-wind").find(":checked").val();
+    var wind_label = {
+      "W0to10": "low",
+      "W11to25": "mild",
+      "Wgt26": "high"
+    }
+    var temp = $("#set-temp").find(":checked").val();
+    var temp_label = {
+      "Tlt42": "low",
+      "T42to79": "mild",
+      "Tgt80": "high"
+    }
+    // update info
+    $("#weather-ico").removeClass().addClass("wi")
+    var mov_icon = {
+      "overcast-rainy-night" : "wi-rain",
+      "clear-day" : "wi-day-sunny"
+    }
+    console.log(mov_icon[movement])
+    $("#weather-ico").addClass(mov_icon[movement])
+    $("#location").text("no location (manual settings)")
+    $("#temp").text(temp_label[temp]);
+    $("#wind").text(wind_label[wind]);
+    // render
+    renderScoreWithSource(movement, wind+temp)
+  })
+
   $("#locchange").click(function(e) {
     e.stopPropagation();
     $(this).addClass("locin-hide");
@@ -119,7 +161,7 @@ function adjustPageAreaControls() {
 function closeMenus(e) {
   $("#info-rest").removeClass('info-stack');
   $("#locchange").removeClass("locin-hide");
-  $("#mm_dropdown").removeClass("locin-hide");
+  // $("#mm_dropdown").removeClass("locin-hide");
   $("#locinput").removeClass("locin-show");
 }
 
@@ -265,7 +307,7 @@ function updateInfo(movement, data){
   $("#weather-ico").removeClass().addClass("wi")
   $("#weather-ico").addClass(weatherIconsMap[data.currently.icon])
     .attr("title", data.currently.icon.replace(/-/g, " "))
-  $("#wind").text(data.currently.windSpeed)
+  $("#wind").text(data.currently.windSpeed + "mph")
   $("#temp").text(Math.floor(data.currently.temperature) + " °F")
 }
 
@@ -283,6 +325,11 @@ function setOptions() {
 
 function renderScoreWithSource(movement, source){
   $("#output").empty()
+
+  console.log("#"+movement+source)
+
+  movement = "clear-day"
+  source = "W0to11Tgt80"
 
   setOptions();
   var options = JSON.stringify({
