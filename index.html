@@ -50,24 +50,59 @@
       <div id="tools">
         <div class="container">
           <div id="info" class="col-md-8 col-xs-5">
-            <span id="weather" class="app-info"><i id="weather-ico" class="wi"></i></span>            
+            <span id="weather" class="app-info"><i id="weather-ico" class="wi"></i></span>
             <span id="info-rest">
               <span id="temp" class="app-info"></span>
-              <span class="app-info"><i class="wi wi-strong-wind"></i> <span id="wind"></span>mph</span>
+              <span class="app-info"><i class="wi wi-strong-wind"></i> <span id="wind">
               <span id="location" class="app-info app-info-nosm truncate"></span>
             </span>
           </div>
           <div class="col-md-4 col-xs-7 text-right">
-            <div id="mm_dropdown" class="btn-group">
-              <button type="button" class="app-info btn dropdown-toggle"
-              data-toggle="dropdown">
-                <span class="l-only">Choose movement</span> <img class="xs-only" src="images/measure.png" width="40px"/></span>
+              <button id="settings" type="button" class="app-info btn"
+              data-toggle="collapse" data-target="#settings-cnt">
+                Settings
               </button>
-              <ul class="dropdown-menu scrollable-menu" id="mvmnts">
-                <li><a id="showClearDay" href="#">Clear Day</a></li>
-                <li><a id="showOverCastRainyNight" href="#">Overcast Rainy Night</a></li>
-              </ul>
-            </div>
+              <div id="settings-cnt" class="collapse dropdown-menu open">
+                Set weather conditions <button type="button" class="close" id="set-close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="form-group">
+                  <select class="form-control" id="selMov">
+                    <option value="clear-day">Clear Day</option>
+                    <option value="overcast-rainy-night">Overcast Rainy Night</option>
+                  </select>
+                </div>
+                <div>Wind</div>
+                <div id="set-wind" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="wind" id="wLow" checked autocomplete="off" value="W0to10"> Low
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="wind" id="wMild" autocomplete="off" value="W11to25"> Mild
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="wind" id="wHigh" autocomplete="off" value="Wgt26"> High
+                  </label>
+                </div>
+                <div>Temperature </div>
+                <div id="set-temp" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="temp" id="tLow" checked autocomplete="off" value="Tlt42"> Low
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="temp" id="tMild" autocomplete="off" value="T42to79"> Mild
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="temp" id="tHigh" autocomplete="off" value="Tgt80"> High
+                  </label>
+                </div>
+                <div id="settings-btns">
+                  <button id="set-cancel" type="button" class="btn btn-sm btn-danger">
+                    Cancel &amp; Reset
+                  </button>
+                  <button id="set-confirm" type="button" class="btn btn-sm btn-info">
+                    Confirm
+                  </button>
+                </div>
+              </div>
             <span id="locchange" class="app-info btn">New location</span>
             <div id="locinput" class="input-group">
               <input type="text" class="app-info form-control" placeholder="Vienna, Austria">

@@ -45,6 +45,17 @@ a, a.active, a:active, a:focus, a:hover {
   padding: 10px 15px;
 }
 
+#settings-cnt {
+  color: black;
+  padding: 5px;
+  width: 250px;
+  left: 20px;
+}
+
+#settings-btns {
+  padding-top: 10px;
+}
+
 #menu {
   margin-top: 10px;
 }
