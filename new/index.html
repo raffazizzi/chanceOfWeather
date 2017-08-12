@@ -1,0 +1,155 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meteomozart - Mozart's piano sonata K. 333 by the weather">
+    <meta name="author" content="Raff Viglianti">
+
+      <title>Chance of Weather</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link href="css/theme.css" rel="stylesheet"/>
+      <link href="css/weather-icons.min.css" rel="stylesheet"/>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="lib/verovio-toolkit.js"></script>
+      <script src="src/index.js"> </script>
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body id="page-top" class="index">
+
+    <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <div class="container">
+
+          <div class="col-md-9 col-xs-7">
+            <!-- <span class="navbar-brand">Meteomozart<span class="xl-only"> — Mozart's Piano Sonata K. 333 by the weather</span>
+              <br/><span id="credits">Powered by <a href="http://verovio.org"/>Verovio</a> and <a href="https://darksky.net/poweredby/">Dark Sky</a></span>
+            </span> -->
+            <span class="navbar-brand">Chance of Weather<span class="xl-only"> — Joseph L. Arkfeld (music) &amp; Raff Viglianti (code)</span>
+              <br/><span id="credits">Powered by <a href="http://verovio.org"/>Verovio</a> and <a href="https://darksky.net/poweredby/">Dark Sky</a></span>
+            </span>
+          </div>
+
+          <ul id="menu" class="list-inline list-unstyled col-md-3 col-xs-5 text-right">
+              <!-- <li>
+                  <a href="#">About</a>
+              </li>
+              <li>
+                  <a href="#">Code</a>
+              </li> -->
+          </ul>
+      </div>
+      <div id="tools">
+        <div class="container">
+          <div id="info" class="col-md-8 col-xs-5">
+            <span id="weather" class="app-info"><i id="weather-ico" class="wi"></i></span>
+            <span id="info-rest">
+              <span id="temp" class="app-info"></span>
+              <span class="app-info"><i class="wi wi-strong-wind"></i> <span id="wind">
+              <span id="location" class="app-info app-info-nosm truncate"></span>
+            </span>
+          </div>
+          <div class="col-md-4 col-xs-7 text-right">
+              <button id="settings" type="button" class="app-info btn"
+              data-toggle="collapse" data-target="#settings-cnt">
+                Settings
+              </button>
+              <div id="settings-cnt" class="collapse dropdown-menu open">
+                Set weather conditions <button type="button" class="close" id="set-close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="form-group">
+                  <select class="form-control" id="selMov">
+                    <option value="clear">Dry weather</option>
+                    <option value="wet">Wet weather</option>
+                  </select>
+                </div>
+                <div>Time</div>
+                <div id="set-time" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="time" id="tDay" checked autocomplete="off" value="day"> Day
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="time" id="tNight" autocomplete="off" value="night"> Night
+                  </label>
+                </div>
+                <div>Wind</div>
+                <div id="set-wind" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="wind" id="wLow" checked autocomplete="off" value="W0to10"> Low
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="wind" id="wMild" autocomplete="off" value="W11to25"> Mild
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="wind" id="wHigh" autocomplete="off" value="Wgt26"> High
+                  </label>
+                </div>
+                <div>Temperature </div>
+                <div id="set-temp" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="temp" id="tLow" checked autocomplete="off" value="Tlt42"> Low
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="temp" id="tMild" autocomplete="off" value="T42to79"> Mild
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="temp" id="tHigh" autocomplete="off" value="Tgt80"> High
+                  </label>
+                </div>
+                <div id="settings-btns">
+                  <button id="set-cancel" type="button" class="btn btn-sm btn-danger">
+                    Cancel &amp; Reset
+                  </button>
+                  <button id="set-confirm" type="button" class="btn btn-sm btn-info">
+                    Confirm
+                  </button>
+                </div>
+              </div>
+            <span id="locchange" class="app-info btn">New location</span>
+            <div id="locinput" class="input-group">
+              <input type="text" class="app-info form-control" placeholder="Vienna, Austria">
+              <span id="locgo" class="app-info btn input-group-addon">Go</span>
+            </div>
+        </div>
+      </div>
+  </nav>
+
+    <div id="content">
+      <div class="pageAreaControl" id="prevArea"></div>
+      <div class="pageAreaControl" id="nextArea"></div>
+      <div id="loading">Loading score <img src="images/loading.gif"/></div>
+      <div id="output"></div>
+    </div>
+
+  </body>
+    <!-- <body>
+      <div id="title" style="float: left">
+        <h3>Chance of Weather - Joseph L. Arkfeld</h3>
+        <h4>coded by Raffaele Viglianti</h4>
+        <p><strong>Sample version - Copyright 2016, 2017</strong><br/>
+          <a href="#" id="showClearDay">Movement: Clear Day</a><br/>
+          <a href="#" id="showOverCastRainyNight">Movement: Overcast Rainy Night</a>
+        </p>
+      </div>
+        <div id="info" style="float:right">
+          <em>Location</em>: <span id="location"></span><br/>
+          <em>Weather</em>: <span id="weather"></span><br/>
+          <em>Temperature</em>: <span id="temp"></span><br/>
+          <em>Wind</em>: <span id="wind"></span><br/>
+          <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+          <hr/>
+          <div id="change">
+            Set weather location: <input type="text" value="Vienna, Austria" id="newLoc"/> <button id="changeWeather">Go</buttom>
+          </div>
+        </div>
+        <div id="loading" style="padding-top: 15em;">Loading score...</div>
+        <div id="output"></div>
+    </body> -->
+</html>
