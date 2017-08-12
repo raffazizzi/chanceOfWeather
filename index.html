@@ -66,9 +66,18 @@
                 Set weather conditions <button type="button" class="close" id="set-close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <div class="form-group">
                   <select class="form-control" id="selMov">
-                    <option value="clear-day">Clear Day</option>
-                    <option value="overcast-rainy-night">Overcast Rainy Night</option>
+                    <option value="clear">Dry weather</option>
+                    <option value="wet">Wet weather</option>
                   </select>
+                </div>
+                <div>Time</div>
+                <div id="set-time" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="time" id="tDay" checked autocomplete="off" value="day"> Day
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="time" id="tNight" autocomplete="off" value="night"> Night
+                  </label>
                 </div>
                 <div>Wind</div>
                 <div id="set-wind" class="btn-group" data-toggle="buttons">

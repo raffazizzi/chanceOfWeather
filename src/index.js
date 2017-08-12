@@ -16,7 +16,7 @@ var weatherIconsMap = {
 var appID = "99db2948b09ef071cc81649ff6b66cde"
 
 var vrvToolkit = new verovio.toolkit();
-var currentMov = "clear-day"
+var currentMov = "clear"
 var vrvPage = 1;
 var startMeasure = -1;
 var meiData;
@@ -61,14 +61,14 @@ $(document).ready(function(){
 
   $("#showClearDay").click(function(e){
     e.preventDefault();
-    currentMov = 'clear-day'
-    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'clear-day')}));
+    currentMov = 'clear'
+    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'clear')}));
   })
 
   $("#showOverCastRainyNight").click(function(e){
     e.preventDefault();
-    currentMov = 'overcast-rainy-night'
-    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'overcast-rainy-night')}));
+    currentMov = 'wet'
+    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'wet')}));
   })
 
   $("#prevArea").click(prevPage);
@@ -90,6 +90,8 @@ $(document).ready(function(){
     $("#settings-cnt").collapse("toggle")
     // re-render with given parameters
     var movement = $("#selMov").find(":selected").val();
+    var time = $("#set-time").find(":checked").val();
+    var time_label = wind
     var wind = $("#set-wind").find(":checked").val();
     var wind_label = {
       "W0to10": "low",
@@ -105,15 +107,15 @@ $(document).ready(function(){
     // update info
     $("#weather-ico").removeClass().addClass("wi")
     var mov_icon = {
-      "overcast-rainy-night" : "wi-rain",
-      "clear-day" : "wi-day-sunny"
+      "wet" : "wi-rain",
+      "clear" : "wi-day-sunny"
     }
     $("#weather-ico").addClass(mov_icon[movement])
     $("#location").text("no location (manual settings)")
     $("#temp").text(temp_label[temp]);
     $("#wind").text(wind_label[wind]);
     // render
-    renderScoreWithSource(movement, wind+temp)
+    renderScoreWithSource(movement, "-"+time+wind+temp)
   })
 
   $("#locchange").click(function(e) {
@@ -241,7 +243,17 @@ function getWeatherForPos(position, movement) {
 
 function getSourceName(data){
 
-  var source = ""
+  var now = data.daily.data[0].time
+  var sunrise = data.daily.data[0].sunriseTime
+  var sunset = data.daily.data[0].sunsetTime
+  var timeDay = ''
+  if (now => sunrise < sunset) {
+    timeDay = '-day'
+  } else {
+    timeDay = '-night'
+  }
+
+  var source = timeDay
   var w = data.currently.windSpeed
   if (w <= 11) {
     source += "W0to11"
