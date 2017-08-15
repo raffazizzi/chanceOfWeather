@@ -16,7 +16,7 @@ var weatherIconsMap = {
 var appID = "99db2948b09ef071cc81649ff6b66cde"
 
 var vrvToolkit = new verovio.toolkit();
-var currentMov = "clear"
+var currentMov = "dry"
 var vrvPage = 1;
 var startMeasure = -1;
 var meiData;
@@ -61,8 +61,8 @@ $(document).ready(function(){
 
   $("#showClearDay").click(function(e){
     e.preventDefault();
-    currentMov = 'clear'
-    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'clear')}));
+    currentMov = 'dry'
+    getWeatherFor(navigator.geolocation.getCurrentPosition(function(p){getWeatherForPos(p,'dry')}));
   })
 
   $("#showOverCastRainyNight").click(function(e){
@@ -108,7 +108,7 @@ $(document).ready(function(){
     $("#weather-ico").removeClass().addClass("wi")
     var mov_icon = {
       "wet" : "wi-rain",
-      "clear" : "wi-day-sunny"
+      "dry" : "wi-day-sunny"
     }
     $("#weather-ico").addClass(mov_icon[movement])
     $("#location").text("no location (manual settings)")
