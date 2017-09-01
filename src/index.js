@@ -94,7 +94,7 @@ $(document).ready(function(){
     var time_label = wind
     var wind = $("#set-wind").find(":checked").val();
     var wind_label = {
-      "W0to10": "low",
+      "W0to11": "low",
       "W11to25": "mild",
       "Wgt26": "high"
     }
@@ -243,11 +243,12 @@ function getWeatherForPos(position, movement) {
 
 function getSourceName(data){
 
-  var now = data.daily.data[0].time
+  var now = data.currently.time
   var sunrise = data.daily.data[0].sunriseTime
   var sunset = data.daily.data[0].sunsetTime
   var timeDay = ''
-  if (now => sunrise < sunset) {
+  console.log(now, sunrise, sunset, now >= sunrise < sunset)
+  if (sunrise >= now > sunset) {
     timeDay = '-day'
   } else {
     timeDay = '-night'
