@@ -10,7 +10,6 @@ var weatherIconsMap = {
   "cloudy": "wi-cloudy",
   "partly-cloudy-day": "wi-day-cloudy" ,
   "partly-cloudy-night": "wi-night-alt-cloudy"
-
 }
 
 var appID = "99db2948b09ef071cc81649ff6b66cde"
@@ -94,10 +93,13 @@ $(document).ready(function(){
     var time_label = wind
     var wind = $("#set-wind").find(":checked").val();
     var wind_label = {
+      "W0": 'no wind',
       "W0to11": "low",
       "W11to25": "mild",
       "Wgt26": "high"
     }
+    var cloud = $("#set-cloud").find(":checked").val();
+    var winddir = $("#set-winddir").find(":checked").val();
     var temp = $("#set-temp").find(":checked").val();
     var temp_label = {
       "Tlt42": "low",
@@ -107,15 +109,26 @@ $(document).ready(function(){
     // update info
     $("#weather-ico").removeClass().addClass("wi")
     var mov_icon = {
-      "wet" : "wi-rain",
-      "dry" : "wi-day-sunny"
+      "dry-day": "wi-day-sunny",
+      "dry-night": "wi-night-clear",
+      "wet-day" : "wi-rain",
+      "wet-night" : "wi-rain"
     }
-    $("#weather-ico").addClass(mov_icon[movement])
+    $("#weather-ico").addClass(mov_icon[movement+'-'+time])
     $("#location").text("no location (manual settings)")
     $("#temp").text(temp_label[temp]);
     $("#wind").text(wind_label[wind]);
+    var extras = {
+      windBearing: winddir,
+      cloud: cloud
+    }
+    // Adjust wind
+    if (wind === "W0") {
+      extras.windBearing = wind
+      wind = "W0to11"
+    }
     // render
-    renderScoreWithSource(movement, "-"+time+wind+temp)
+    renderScoreWithSource(movement, "-"+time+wind+temp, time, extras)
   })
 
   $("#locchange").click(function(e) {
@@ -236,23 +249,26 @@ function getWeatherForPos(position, movement) {
    dataType: "jsonp"
  }).done(function(data){
    var source = getSourceName(data)
-   renderScoreWithSource(movement, source)
+   var extras = getSourceExtras(data)
+   renderScoreWithSource(movement, source, getTime(data), extras)
    updateInfo(movement, data)
  })
 }
 
-function getSourceName(data){
-
+function getTime(data) {
   var now = data.currently.time
   var sunrise = data.daily.data[0].sunriseTime
   var sunset = data.daily.data[0].sunsetTime
-  var timeDay = ''
-  console.log(now, sunrise, sunset, now >= sunrise < sunset)
-  if (sunrise >= now > sunset) {
-    timeDay = '-day'
+  if (sunrise >= now && now < sunset) {
+    return 'day'
   } else {
-    timeDay = '-night'
+    return 'night'
   }
+}
+
+function getSourceName(data){
+
+  var timeDay = '-'+getTime(data)
 
   var source = timeDay
   var w = data.currently.windSpeed
@@ -280,6 +296,37 @@ function getSourceName(data){
   else source += "Tlt42"
 
   return source
+}
+
+function getSourceExtras(data){
+  var extras = {}
+  if (data.currently.windSpeed > 0) {
+    var w = data.currently.windBearing
+    if (315 < w && w <= 360 || 0 <= w && w <= 45) {
+      extras.windBearing = 'Wnorth'
+    } else if (45 < w && w <= 135) {
+      extras.windBearing = 'Weast'
+    } else if (135 < w && w <= 225) {
+      extras.windBearing = 'Wsouth'
+    } else if (225 < w && w <= 315) {
+      extras.windBearing = 'Wwest'
+    }
+  }
+  if (data.currently.cloudCover > 0) {
+    var c = data.currently.cloudCover
+    if (0 < c && c <= 0.1) {
+      extras.cloud = 'C0to10'
+    } else if (0.1 < c && c <= 0.25) {
+      extras.cloud = 'C11to25'
+    } else if (0.25 < c && c <= 0.5) {
+      extras.cloud = 'C26to50'
+    } else if (0.5 < c && c <= 0.75) {
+      extras.cloud = 'C51to75'
+    } else if (0.75 < c && c <= 1) {
+      extras.cloud = 'C76to100'
+    }
+  }
+  return extras
 }
 
 function getWeatherFor(query, movement) {
@@ -335,15 +382,21 @@ function setOptions() {
   vrvToolkit.setOptions(options);
 }
 
-function renderScoreWithSource(movement, source){
+function renderScoreWithSource(movement, source, time, extras){
   $("#output").empty()
 
-  console.log("#"+movement+source)
+  console.log("#"+movement+source, extras)
+
+  var extraPath = ''
+  if (Object.keys(extras).length > 0){
+    for (var extra in extras) {
+      extraPath += " or contains(@source, '#" + movement + '-' + time + extras[extra] + "')"
+    }
+  }
 
   setOptions();
   var options = JSON.stringify({
-      // appXPathQuery: "./rdg[contains(@source, '"+source+"')]"
-      appXPathQuery: "./rdg[contains(@source, '#"+movement+source+"')]"
+      appXPathQuery: "./rdg[contains(@source, '#"+movement+source+"')"+extraPath+"]"
    });
   vrvToolkit.setOptions(options);
 
