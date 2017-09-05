@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Meteomozart - Mozart's piano sonata K. 333 by the weather">
+    <meta name="description" content="Chance of Weather - A piano composition that changes based on weather">
     <meta name="author" content="Raff Viglianti">
 
       <title>Chance of Weather</title>
@@ -14,6 +14,7 @@
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script src="lib/verovio-toolkit.js"></script>
+        <!--<script src="http://www.verovio.org/javascript/latest/verovio-toolkit.js"></script>-->
       <script src="src/index.js"> </script>
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -79,16 +80,55 @@
                     <input type="radio" name="time" id="tNight" autocomplete="off" value="night"> Night
                   </label>
                 </div>
-                <div>Wind</div>
+                <div>Wind Intensity</div>
                 <div id="set-wind" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default">
+                    <input type="radio" name="wind" id="w0" autocomplete="off" value="W0"> No wind
+                  </label>
                   <label class="btn btn-default active">
-                    <input type="radio" name="wind" id="wLow" checked autocomplete="off" value="W0to10"> Low
+                    <input type="radio" name="wind" id="wLow" checked autocomplete="off" value="W0to11"> Low
                   </label>
                   <label class="btn btn-default">
                     <input type="radio" name="wind" id="wMild" autocomplete="off" value="W11to25"> Mild
                   </label>
                   <label class="btn btn-default">
                     <input type="radio" name="wind" id="wHigh" autocomplete="off" value="Wgt26"> High
+                  </label>
+                </div>
+                <div>Wind Direction</div>
+                <div id="set-winddir" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="winddir" id="wNorth" checked autocomplete="off" value="Wnorth"> North
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="winddir" id="wSouth" autocomplete="off" value="Wsouth"> South
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="winddir" id="Weast" autocomplete="off" value="Weast"> East
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="winddir" id="Wwest" autocomplete="off" value="Wwest"> West
+                  </label>
+                </div>
+                <div>Cloud Cover</div>
+                <div id="set-cloud" class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default active">
+                    <input type="radio" name="cloud" id="C0" checked autocomplete="off" value="C0"> 0
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="cloud" id="C1" autocomplete="off" value="C0to10"> 1
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="cloud" id="C2" autocomplete="off" value="C11to25"> 2
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="cloud" id="C3" autocomplete="off" value="C26to50"> 3
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="cloud" id="C4" autocomplete="off" value="C51to75"> 4
+                  </label>
+                  <label class="btn btn-default">
+                    <input type="radio" name="cloud" id="C5" autocomplete="off" value="C76to100"> 5
                   </label>
                 </div>
                 <div>Temperature </div>
