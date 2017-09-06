@@ -13,9 +13,9 @@
             </availability>
         </pubStmt>
         <sourceDesc>
-            <source xml:id="overcast-rainy-nightW0to11Tlt42"></source>
-            <source xml:id="overcast-rainy-nightW0to11T42to79"></source>
-            <source xml:id="overcast-rainy-nightW0to11Tgt80"></source>
+            <source xml:id="overcast-rainy-nightW0to10Tlt42"></source>
+            <source xml:id="overcast-rainy-nightW0to10T42to79"></source>
+            <source xml:id="overcast-rainy-nightW0to10Tgt80"></source>
             <source xml:id="overcast-rainy-nightW11to25Tlt42"></source>
             <source xml:id="overcast-rainy-nightW11to25T42to79"></source>
             <source xml:id="overcast-rainy-nightW11to25Tgt80"></source>
@@ -52,6 +52,630 @@
     <body xml:id="m-25">
         <mdiv xml:id="m-26">
             <score xml:id="m-27">
+                <scoreDef>
+                    <staffGrp n="1" symbol="brace">
+                        <staffDef clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1">
+                            
+                            <instrDef midi.channel="1" midi.pan="53" midi.volume="100"></instrDef>
+                        </staffDef>
+                        <staffDef clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="2">
+                            
+                            <instrDef midi.channel="1" midi.pan="53" midi.volume="100"></instrDef>
+                        </staffDef>
+                    </staffGrp>
+                </scoreDef>
+                <section>
+                    <measure right="end">
+                        <staff n="1">
+                            <app>
+                                <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                                <rdg source="#wet-dayWsouth">
+                                    <layer n="1">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="d" pnum="63" stem.dir="up">
+                                                <accid accid="s"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="64" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="d" pnum="63" stem.dir="up">
+                                                <accid accid="s" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="64" stem.dir="up"></note>
+                                        </fTrem>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayWnorth">
+                                    <layer n="1" xml:id="m-522">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-523"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up" xml:id="m-524">
+                                                <accid accid="s" xml:id="m-525"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-526"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up" xml:id="m-527"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up" xml:id="m-528">
+                                                <accid accid.ges="s" xml:id="m-529"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up" xml:id="m-530"></note>
+                                        </fTrem>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayWeast">
+                                    <layer n="1">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up">
+                                                <accid accid="s"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="70" stem.dir="up">
+                                                <accid accid="s"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up">
+                                                <accid accid="n"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="66" stem.dir="up">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up">
+                                                <accid accid="n"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up">
+                                                <accid accid="n"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="66" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up">
+                                                <accid accid="n"></accid>
+                                            </note>
+                                        </fTrem>                                        
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayWwest">
+                                    <layer n="1" xml:id="m-640">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-641"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="64" stem.dir="up" xml:id="m-642"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-643"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up" xml:id="m-644"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-645"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up" xml:id="m-646"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="64" stem.dir="up" xml:id="m-647"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up" xml:id="m-648"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="64" stem.dir="up" xml:id="m-649"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up" xml:id="m-650"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up" xml:id="m-651"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up" xml:id="m-652"></note>
+                                        </fTrem>
+                                    </layer>
+                                </rdg>
+                                
+                                <rdg source="#wet-nightWsouth">
+                                    <layer n="1">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="d" pnum="61" stem.dir="up">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="63" stem.dir="up">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="d" pnum="61" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="63" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                        </fTrem>                                        
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightWnorth">
+                                    <layer n="1" xml:id="m-505">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-506"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up" xml:id="m-507"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up" xml:id="m-508"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up" xml:id="m-509">
+                                                <accid accid="s" xml:id="m-510"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up" xml:id="m-511">
+                                                <accid accid.ges="s" xml:id="m-512"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="67" stem.dir="up" xml:id="m-513"></note>
+                                        </fTrem>                                        
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightWeast">
+                                    <layer n="1">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up">
+                                                <accid accid="s"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up">
+                                                <accid accid.ges="s"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="66" stem.dir="up">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="66" stem.dir="up">
+                                                <accid accid.ges="s"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="66" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="a" pnum="69" stem.dir="up"></note>
+                                        </fTrem>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightWwest">
+                                    <layer n="1">
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="63" stem.dir="up">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="c" pnum="60" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="67" stem.dir="up">
+                                                <accid accid="n"></accid>
+                                            </note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="63" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="e" pnum="63" stem.dir="up">
+                                                <accid accid="f" func="caution"></accid>
+                                            </note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="67" stem.dir="up"></note>
+                                        </fTrem>
+                                        <fTrem slash="3">
+                                            <note dur="4" dur.ges="256p" oct="4" pname="f" pnum="65" stem.dir="up"></note>
+                                            <note dur="4" dur.ges="256p" oct="4" pname="g" pnum="67" stem.dir="up"></note>
+                                        </fTrem>
+                                    </layer>
+                                </rdg>
+                            </app>
+                        </staff>
+                        <staff n="2">
+                            <layer>
+                                <app>
+                                    <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                                    <rdg source="#wet-dayWnorth #wet-nightWnorth #wet-dayWeast #wet-nightWeast                                         #wet-dayWsouth #wet-nightWsouth #wet-dayWwest #wet-nightWwest">
+                                        <mRest></mRest>                                        
+                                    </rdg>
+                                </app>
+                            </layer>
+                        </staff>
+                        <app>
+                            <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                            
+                            <rdg source="#wet-dayWsouth">                                
+                                <dir place="above" staff="1" startid="#wsd-1"><rend fontsize="800pt" fontstyle="normal">??</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-dayWnorth">
+                                <dir place="above" staff="1" startid="#wnd-1"><rend fontsize="800pt" fontstyle="normal">??</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-dayWeast #wet-dayWwest"></rdg>
+                            
+                            <rdg source="#wet-nightWsouth">
+                                <dir place="above" staff="1" startid="#ws-dn-1"><rend fontsize="800pt" fontstyle="normal">??</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-nightWnorth">
+                                <dir place="above" staff="1" startid="#wn-dn-1"><rend fontsize="800pt" fontstyle="normal">??</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-nightWeast"></rdg>
+                            <rdg source="#wet-nightWwest"></rdg>
+                        </app>
+                        
+                        <app>
+                            <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                            <rdg source="#wet-dayWnorth #wet-dayWeast #wet-dayWsouth #wet-dayWwest                                 #wet-nightWnorth #wet-nightWeast #wet-nightWsouth #wet-nightWwest">
+                                
+                                <dir place="above" staff="1" tstamp="1">characteristics are at the discretion of the player.</dir>
+                                <dir place="above" staff="1" tstamp="1">Tempo, inflection, dynamics, and any other interpretive </dir>  
+                            </rdg>
+                        </app>
+                        
+                        <app>
+                            <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                                 #wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                                 #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80                                 #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+                                <dir place="above" staff="1" tstamp="1"><rend fontweight="bold">and pedal the entire cell.</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80                                 #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+                        </app>                        
+                        
+                        <app>
+                            <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                                 #wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+                                <dir place="above" staff="1" tstamp="1"><rend fontweight="bold">Do not repeat the cell during an interjection,</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80                                 #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+                                <dir place="above" staff="1" tstamp="1"><rend fontweight="bold">The cell may be repeated,</rend></dir>
+                            </rdg>
+                            <rdg source="#wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80                                 #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+                                <dir place="above" staff="1" tstamp="1"><rend fontweight="bold">repeated or otherwise manipulated.</rend></dir>
+                                <dir place="above" staff="1" tstamp="1"><rend fontweight="bold">Any individual part of the cell may be</rend></dir>
+                            </rdg>
+                        </app>
+                        
+                        <app>
+                            <rdg source="#wet-dayW0 #wet-nightW0"></rdg>
+                            <rdg source="#wet-dayWnorth #wet-dayWeast #wet-dayWsouth #wet-dayWwest                                 #wet-nightWnorth #wet-nightWeast #wet-nightWsouth #wet-nightWwest">
+                                
+                                <dir place="above" staff="1" tstamp="1">anywhere in the movement, no more than <rend fontweight="bold">three times</rend>.</dir>
+                                <dir place="above" staff="1" tstamp="1">The player may interject this cell </dir>  
+                            </rdg>
+                        </app>
+                    </measure>
+                </section>
+                <section>
+                    <scoreDef>
+                        <staffGrp n="1" symbol="brace">
+                            <staffDef clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1">
+                                
+                                <instrDef midi.channel="1" midi.pan="53" midi.volume="100"></instrDef>
+                            </staffDef>
+                            <staffDef clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2">
+                                
+                                <instrDef midi.channel="1" midi.pan="53" midi.volume="100"></instrDef>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <measure right="end">
+                        <staff n="1">
+                            <app>
+                                <rdg source="#wet-dayC0 #wet-nightC0"></rdg>
+                                <rdg source="#wet-dayC0to10 #wet-nightC0to10">
+                                    <layer n="1">
+                                        <note dur="1" dur.ges="1024p" oct="4" pname="g" pnum="67" stem.dir="up"></note>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC11to25">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="g" pnum="67"></note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC11to25">
+                                    <layer n="1" xml:id="m-734">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-735">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="66" xml:id="m-736">
+                                                <accid accid="s" xml:id="m-737"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="f" pnum="78" xml:id="m-738">
+                                                <accid accid="s" xml:id="m-739"></accid>
+                                            </note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC26to50">
+                                    <layer n="1" xml:id="m-681">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-682">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="g" pnum="67" xml:id="m-683"></note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="e" pnum="75" xml:id="m-684">
+                                                <accid accid="f" xml:id="m-685"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79" xml:id="m-686"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC26to50">
+                                    <layer n="1" xml:id="m-747">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-748">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="66" xml:id="m-749">
+                                                <accid accid="s" xml:id="m-750"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="d" pnum="75" xml:id="m-751">
+                                                <accid accid="s" xml:id="m-752"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="f" pnum="78" xml:id="m-753">
+                                                <accid accid="s" xml:id="m-754"></accid>
+                                            </note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC51to75">
+                                    <layer n="1" xml:id="m-695">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-696">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="a" pnum="69" xml:id="m-697"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="b" pnum="70" xml:id="m-698">
+                                                <accid accid="f" xml:id="m-699"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="e" pnum="75" xml:id="m-700">
+                                                <accid accid="f" xml:id="m-701"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79" xml:id="m-702"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC51to75">
+                                    <layer n="1" xml:id="m-763">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-764">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="a" pnum="70" xml:id="m-765">
+                                                <accid accid="s" xml:id="m-766"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="b" pnum="71" xml:id="m-767"></note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="e" pnum="76" xml:id="m-768"></note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79" xml:id="m-769"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC76to100">
+                                    <layer n="1" xml:id="m-713">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-714">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="g" pnum="67" xml:id="m-715"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="a" pnum="69" xml:id="m-716"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="b" pnum="70" xml:id="m-717">
+                                                <accid accid="f" xml:id="m-718"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="f" pnum="78" xml:id="m-719">
+                                                <accid accid="s" xml:id="m-720"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79" xml:id="m-721"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC76to100">
+                                    <layer n="1" xml:id="m-779">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-780">
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="a" pnum="69" xml:id="m-781">
+                                                <accid accid="n" xml:id="m-782"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="b" pnum="70" xml:id="m-783">
+                                                <accid accid="f" xml:id="m-784"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="c" pnum="71" xml:id="m-785">
+                                                <accid accid="f" xml:id="m-786"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="f" pnum="78" xml:id="m-787">
+                                                <accid accid="s" xml:id="m-788"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="5" pname="g" pnum="79" xml:id="m-789"></note>
+                                        </chord>
+                                    </layer>
+                                </rdg>
+                            </app>                            
+                        </staff>
+                        <staff n="2">
+                            <app>
+                                <rdg source="#wet-dayC0 #wet-nightC0"></rdg>
+                                <rdg source="#wet-dayC0to10 #wet-nightC0to10">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="f" pnum="53"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="65"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC11to25">
+                                    <layer n="1" xml:id="m-741">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-742">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="e" pnum="52" xml:id="m-743"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="e" pnum="64" xml:id="m-744"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC11to25">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="f" pnum="53"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="65"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC26to50">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="f" pnum="53"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="c" pnum="60"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="65"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC26to50">
+                                    <layer n="1" xml:id="m-756">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-757">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="e" pnum="52" xml:id="m-758"></note>
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="a" pnum="57" xml:id="m-759"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="e" pnum="64" xml:id="m-760"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC51to75">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="f" pnum="53"></note>
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="b" pnum="58">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="c" pnum="60"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="65"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC51to75">
+                                    <layer n="1" xml:id="m-771">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-772">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="e" pnum="52" xml:id="m-773"></note>
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="b" pnum="59" xml:id="m-774"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="c" pnum="60" xml:id="m-775"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="f" pnum="65" xml:id="m-776"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-nightC76to100">
+                                    <layer n="1">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="f" pnum="53"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="c" pnum="60"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="d" pnum="61">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="e" pnum="63">
+                                                <accid accid="f"></accid>
+                                            </note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                                <rdg source="#wet-dayC76to100">
+                                    <layer n="1" xml:id="m-791">
+                                        <chord dur="1" dur.ges="1024p" stem.dir="down" xml:id="m-792">
+                                            <note dur="1" dur.ges="1024p" oct="3" pname="e" pnum="52" xml:id="m-793"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="c" pnum="60" xml:id="m-794"></note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="d" pnum="63" xml:id="m-795">
+                                                <accid accid="s" xml:id="m-796"></accid>
+                                            </note>
+                                            <note dur="1" dur.ges="1024p" oct="4" pname="e" pnum="64" xml:id="m-797"></note>
+                                        </chord>
+                                        
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                        <space dur="2"></space>
+                                    </layer>
+                                </rdg>
+                            </app>     
+                        </staff>
+                        <app>
+                            <rdg source="#wet-dayC0 #wet-nightC0"></rdg>
+                            <rdg source="#wet-dayC0to10 #wet-nightC0to10 #wet-dayC11to25 #wet-nightC11to25 #wet-dayC26to50 #wet-nightC26to50 #wet-dayC51to75 #wet-nightC51to75 #wet-dayC76to100 #wet-nightC76to100">
+                                <dir place="below" staff="2" tstamp="0">Intersperse this sonority</dir>
+                            </rdg>
+                        </app>                        
+                        <app>
+                            <rdg source="#wet-dayC0 #wet-nightC0"></rdg>
+                            <rdg source="#wet-dayC0to10 #wet-nightC0to10">
+                                <dir place="below" staff="2" tstamp="0">throughout the movement once.</dir>
+                            </rdg>
+                            <rdg source="#wet-dayC11to25 #wet-nightC11to25">
+                                <dir place="below" staff="2" tstamp="0">throughout the movement twice.</dir>
+                            </rdg>
+                            <rdg source="#wet-dayC26to50 #wet-nightC26to50 #wet-dayC51to75 #wet-nightC51to75">
+                                <dir place="below" staff="2" tstamp="0">throughout the movement three times.</dir>
+                            </rdg>
+                            <rdg source="#wet-dayC76to100 #wet-nightC76to100">
+                                <dir place="below" staff="2" tstamp="0">throughout the movement four times.</dir>
+                            </rdg>
+                        </app>     
+                        <app>
+                            <rdg source="#wet-dayC0 #wet-nightC0"></rdg>
+                            <rdg source="#wet-dayC0to10 #wet-nightC0to10 #wet-dayC11to25 #wet-nightC11to25 #wet-dayC26to50 #wet-nightC26to50 #wet-dayC51to75 #wet-nightC51to75 #wet-dayC76to100 #wet-nightC76to100">
+                                <dir place="below" staff="2" tstamp="0">Do not interrupt the flow of the line</dir>
+                                <dir place="below" staff="2" tstamp="0">but allow the chord to ring with full pedal.</dir>
+                                <dir place="below" staff="2" tstamp="0">Do not use more than one cloud sonority per</dir>
+                                <dir place="below" staff="2" tstamp="0">section of this movement.</dir>
+                            </rdg>
+                        </app>                        
+                    </measure>
+                </section>
                 <scoreDef xml:id="m-28">
                     <staffGrp n="1" symbol="brace" xml:id="m-36">
                         <staffDef clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1" xml:id="m-30">
@@ -65,7 +689,7 @@
                     </staffGrp>
                 </scoreDef>  
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
                         <section n="1" xml:base="Wet_Night_1.xml" xml:id="or1-m-37">
     <scoreDef>
         <staffGrp n="1" symbol="brace">
@@ -74,8 +698,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -159,15 +783,15 @@
         
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-            <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+            <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42">
+            <rdg source="#wet-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -816,8 +1440,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -887,7 +1511,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or2-m-504">2 </dir>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -895,7 +1519,7 @@
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tlt42 #wet-nightWgt26T24to79 #wet-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or2-m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -1723,8 +2347,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -1750,7 +2374,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or3-m-1044">
                 <staff n="1" xml:id="or3-m-1046">
                     <layer n="1" xml:id="or3-m-1047">
@@ -1803,7 +2427,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42"></rdg>
@@ -1983,8 +2607,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2010,7 +2634,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or4-m-1118">
                 <staff n="1" xml:id="or4-m-1119">
                     <layer n="1" xml:id="or4-m-1120">
@@ -2088,7 +2712,7 @@
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -2605,7 +3229,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
             <measure right="invis" xml:id="or4-m-1492">
                 <staff n="1" xml:id="or4-m-1493">
                     <layer n="1" xml:id="or4-m-1494">
@@ -2703,8 +3327,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2728,7 +3352,7 @@
                 <dir place="above" staff="2" startid="#or5-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -2754,7 +3378,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or5-m-1518a">
                 <staff n="1" xml:id="or5-m-1520a">
                     <layer n="1" xml:id="or5-m-1521a">
@@ -2787,7 +3411,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1522a">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -2957,7 +3581,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure right="rptend" xml:id="or5-m-1625a">
                 <staff n="1" xml:id="or5-m-1626a">
                     <layer n="1" xml:id="or5-m-1627a">
@@ -3037,7 +3661,7 @@
 </section>
                         <section n="6" xml:base="Wet_Night_6.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3045,8 +3669,8 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
-            <scoreDef>h
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+            <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -3079,7 +3703,7 @@
                 <dir place="above" staff="2" startid="#or6-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3144,7 +3768,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -3503,7 +4127,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or6-m-1912">
                 <staff n="1" xml:id="or6-m-1913">
                     <layer n="1" xml:id="or6-m-1914">
@@ -3589,8 +4213,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -3618,7 +4242,7 @@
                 <dir place="above" staff="2" startid="#or7-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -3648,7 +4272,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or7-m-1933a">
                 <staff n="1" xml:id="or7-m-1935a">
                     <layer n="1" xml:id="or7-m-1936a">
@@ -3691,7 +4315,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="or7-m-1954a"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="or7-m-1955a">(p) </dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -3858,7 +4482,7 @@
 </section>
                         <section n="8" xml:base="Wet_Night_8.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -3866,7 +4490,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -3897,7 +4521,7 @@
                 <dir place="above" staff="2" startid="#or8-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -4352,8 +4976,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4380,7 +5004,7 @@
                 <dir place="above" staff="2" startid="#or9-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4458,7 +5082,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -4677,8 +5301,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4701,7 +5325,7 @@
                 <dir place="above" staff="2" startid="#or10-e1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -4726,7 +5350,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or10-m-2461a">
                 <staff n="1" xml:id="or10-m-2462a">           
                     <layer n="1" xml:id="or10-m-2463a">
@@ -4778,7 +5402,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or10-m-2465a"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="or10-m-2467a">(p)</dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
@@ -4939,7 +5563,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79  #wet-nightW0to11Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79  #wet-nightW0to10Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure right="rptend" xml:id="or10-m-2563a">
                 <staff n="1" xml:id="or10-m-2564a">
                     <layer n="1" xml:id="or10-m-2565a">
@@ -4975,7 +5599,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="or10-m-2575a"></octave>
                 <app>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -5030,8 +5654,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5115,15 +5739,15 @@
         
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-            <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+            <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42">
+            <rdg source="#wet-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -5772,8 +6396,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5801,7 +6425,7 @@
                 <dir place="above" staff="2" startid="#or7-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -5831,7 +6455,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or7-m-1933a">
                 <staff n="1" xml:id="or7-m-1935a">
                     <layer n="1" xml:id="or7-m-1936a">
@@ -5874,7 +6498,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="or7-m-1954a"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="or7-m-1955a">(p) </dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -6047,8 +6671,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6075,7 +6699,7 @@
                 <dir place="above" staff="2" startid="#or9-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6153,7 +6777,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -6372,8 +6996,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6399,7 +7023,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or3-m-1044">
                 <staff n="1" xml:id="or3-m-1046">
                     <layer n="1" xml:id="or3-m-1047">
@@ -6452,7 +7076,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42"></rdg>
@@ -6632,8 +7256,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -6659,7 +7283,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or4-m-1118">
                 <staff n="1" xml:id="or4-m-1119">
                     <layer n="1" xml:id="or4-m-1120">
@@ -6737,7 +7361,7 @@
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -7254,7 +7878,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
             <measure right="invis" xml:id="or4-m-1492">
                 <staff n="1" xml:id="or4-m-1493">
                     <layer n="1" xml:id="or4-m-1494">
@@ -7352,8 +7976,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -7423,7 +8047,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or2-m-504">2 </dir>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -7431,7 +8055,7 @@
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tlt42 #wet-nightWgt26T24to79 #wet-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or2-m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -8253,7 +8877,7 @@
 </section>
                         <section n="8" xml:base="Wet_Night_8.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -8261,7 +8885,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -8292,7 +8916,7 @@
                 <dir place="above" staff="2" startid="#or8-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -8747,8 +9371,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -8772,7 +9396,7 @@
                 <dir place="above" staff="2" startid="#or5-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -8798,7 +9422,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or5-m-1518a">
                 <staff n="1" xml:id="or5-m-1520a">
                     <layer n="1" xml:id="or5-m-1521a">
@@ -8831,7 +9455,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1522a">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -9001,7 +9625,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure right="rptend" xml:id="or5-m-1625a">
                 <staff n="1" xml:id="or5-m-1626a">
                     <layer n="1" xml:id="or5-m-1627a">
@@ -9087,8 +9711,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -9111,7 +9735,7 @@
                 <dir place="above" staff="2" startid="#or10-e1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -9136,7 +9760,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or10-m-2461a">
                 <staff n="1" xml:id="or10-m-2462a">           
                     <layer n="1" xml:id="or10-m-2463a">
@@ -9188,7 +9812,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or10-m-2465a"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="or10-m-2467a">(p)</dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
@@ -9349,7 +9973,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79  #wet-nightW0to11Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79  #wet-nightW0to10Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure right="rptend" xml:id="or10-m-2563a">
                 <staff n="1" xml:id="or10-m-2564a">
                     <layer n="1" xml:id="or10-m-2565a">
@@ -9385,7 +10009,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="or10-m-2575a"></octave>
                 <app>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -9432,7 +10056,7 @@
 </section>
                         <section n="6" xml:base="Wet_Night_6.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -9440,8 +10064,8 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
-            <scoreDef>h
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+            <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -9474,7 +10098,7 @@
                 <dir place="above" staff="2" startid="#or6-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -9539,7 +10163,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -9898,7 +10522,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or6-m-1912">
                 <staff n="1" xml:id="or6-m-1913">
                     <layer n="1" xml:id="or6-m-1914">
@@ -9986,8 +10610,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -10057,7 +10681,7 @@
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or2-m-504">2 </dir>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42                    #wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                    #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
@@ -10065,7 +10689,7 @@
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
             <rdg source="#wet-nightWgt26Tlt42 #wet-nightWgt26T24to79 #wet-nightWgt26Tgt80">
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or2-m-57">pedal freely</dir>
                 <dir place="above" staff="1" tstamp="1">
@@ -10893,8 +11517,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -10920,7 +11544,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or4-m-1118">
                 <staff n="1" xml:id="or4-m-1119">
                     <layer n="1" xml:id="or4-m-1120">
@@ -10998,7 +11622,7 @@
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                          #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
                 </app>
                 
             </measure>
@@ -11515,7 +12139,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
             <measure right="invis" xml:id="or4-m-1492">
                 <staff n="1" xml:id="or4-m-1493">
                     <layer n="1" xml:id="or4-m-1494">
@@ -11607,7 +12231,7 @@
 </section>
                         <section n="6" xml:base="Wet_Night_6.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -11615,8 +12239,8 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
-            <scoreDef>h
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+            <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="2"></staffDef>
@@ -11649,7 +12273,7 @@
                 <dir place="above" staff="2" startid="#or6-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -11714,7 +12338,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1649">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -12073,7 +12697,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80             #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
             <measure right="invis" xml:id="or6-m-1912">
                 <staff n="1" xml:id="or6-m-1913">
                     <layer n="1" xml:id="or6-m-1914">
@@ -12159,8 +12783,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -12184,7 +12808,7 @@
                 <dir place="above" staff="2" startid="#or5-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -12210,7 +12834,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or5-m-1518a">
                 <staff n="1" xml:id="or5-m-1520a">
                     <layer n="1" xml:id="or5-m-1521a">
@@ -12243,7 +12867,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1522a">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -12413,7 +13037,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure right="rptend" xml:id="or5-m-1625a">
                 <staff n="1" xml:id="or5-m-1626a">
                     <layer n="1" xml:id="or5-m-1627a">
@@ -12493,7 +13117,7 @@
 </section>
                         <section n="8" xml:base="Wet_Night_8.xml">
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -12501,7 +13125,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -12532,7 +13156,7 @@
                 <dir place="above" staff="2" startid="#or8-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>                
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -12987,8 +13611,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79                      #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13072,15 +13696,15 @@
         
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-            <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+            <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#wet-nightW0to11Tlt42">
+            <rdg source="#wet-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -13729,8 +14353,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79             #wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -13756,7 +14380,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or3-m-1044">
                 <staff n="1" xml:id="or3-m-1046">
                     <layer n="1" xml:id="or3-m-1047">
@@ -13809,7 +14433,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1048">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42"></rdg>
@@ -13989,8 +14613,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14017,7 +14641,7 @@
                 <dir place="above" staff="2" startid="#or9-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14095,7 +14719,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2285">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
+            <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                  #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80"></rdg>
             <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -14314,8 +14938,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14338,7 +14962,7 @@
                 <dir place="above" staff="2" startid="#or10-e1"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14363,7 +14987,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or10-m-2461a">
                 <staff n="1" xml:id="or10-m-2462a">           
                     <layer n="1" xml:id="or10-m-2463a">
@@ -14415,7 +15039,7 @@
                 <dynam ho="1.5859mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or10-m-2465a"></dynam>
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="or10-m-2467a">(p)</dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
@@ -14576,7 +15200,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79  #wet-nightW0to11Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79  #wet-nightW0to10Tgt80             #wet-nightW011to25Tlt42 #wet-nightW011to25T42to79 #wet-nightW011to25Tgt80">
             <measure right="rptend" xml:id="or10-m-2563a">
                 <staff n="1" xml:id="or10-m-2564a">
                     <layer n="1" xml:id="or10-m-2565a">
@@ -14612,7 +15236,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="2" vo="10.5mm" xml:id="or10-m-2575a"></octave>
                 <app>
                     <rdg source="#wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80"></rdg>
-                    <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
+                    <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80                         #wet-nightWgt26Tlt42 #wet-nightWgt26T42to79 #wet-nightWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>        
@@ -14665,8 +15289,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
-        <rdg source="#wet-nightW0to11T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW11to25Tlt42 #wet-nightWgt26Tlt42"></rdg>
+        <rdg source="#wet-nightW0to10T42to79 #wet-nightW11to25T42to79 #wet-nightWgt26T42to79">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14694,7 +15318,7 @@
                 <dir place="above" staff="2" startid="#or7-e2"><rend fontsize="800pt" fontstyle="normal">𝄐</rend></dir>
             </measure>
         </rdg>
-        <rdg source="#wet-nightW0to11Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
+        <rdg source="#wet-nightW0to10Tgt80 #wet-nightW11to25Tgt80 #wet-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -14724,7 +15348,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-nightW0to11Tlt42 #wet-nightW0to11T42to79 #wet-nightW0to11Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
+        <rdg source="#wet-nightW0to10Tlt42 #wet-nightW0to10T42to79 #wet-nightW0to10Tgt80              #wet-nightW11to25Tlt42 #wet-nightW11to25T42to79 #wet-nightW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="or7-m-1933a">
                 <staff n="1" xml:id="or7-m-1935a">
                     <layer n="1" xml:id="or7-m-1936a">
@@ -14767,7 +15391,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" tstamp2="1m+5" vo="10.5mm" xml:id="or7-m-1954a"></octave>
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="or7-m-1955a">(p) </dynam>
                 <app>
-                    <rdg source="#wet-nightW0to11Tlt42">
+                    <rdg source="#wet-nightW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-nightW11to25Tlt42">
@@ -14934,7 +15558,7 @@
 </section>
                     </rdg>
                     
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
                         <section n="1" xml:base="Wet_Day_1.xml" xml:id="wd1-or1-m-37">
     <scoreDef>
         <staffGrp n="1" symbol="brace">
@@ -14943,8 +15567,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -15022,15 +15646,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -15610,8 +16234,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -16311,8 +16935,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -16338,7 +16962,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-994">
                 <staff n="1" xml:id="m-995">
                     <layer n="1" xml:id="m-996">
@@ -16383,7 +17007,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-997">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42"></rdg>
@@ -16534,8 +17158,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -16561,7 +17185,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="m-1069">
                 <staff n="1" xml:id="m-1071">
                     <layer n="1" xml:id="m-1072">
@@ -16631,7 +17255,7 @@
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
                 </app>
             </measure>
         </rdg>
@@ -17146,7 +17770,7 @@
                     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
             <measure right="invis" xml:id="m-1443">
                 <staff n="1" xml:id="m-1444">
                     <layer n="1" xml:id="m-1445">
@@ -17242,8 +17866,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -17270,7 +17894,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd5-m-1487">
                 <staff n="1" xml:id="wd5-m-1488">
@@ -17302,7 +17926,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-m-1490">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
@@ -17466,7 +18090,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure n="65" right="rptend" xml:id="wd5-m-1590">
                 <staff n="1" xml:id="wd5-m-1591">
@@ -17546,7 +18170,7 @@
 </section>
                         <section n="6" xml:base="Wet_Day_6.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -17554,7 +18178,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -17617,7 +18241,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-m-1635">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -17953,7 +18577,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="wd6-m-1887">
                 <staff n="1" xml:id="wd6-m-1888">
                     <layer n="1" xml:id="wd6-m-1889">
@@ -18030,8 +18654,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -18062,7 +18686,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd7-m-1930">
                 <staff n="1" xml:id="wd7-m-1931">
@@ -18102,7 +18726,7 @@
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="wd7-m-1948">(p) </dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd7-or7-m-1938a">7</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
@@ -18243,7 +18867,7 @@
 </section>
                         <section n="8" xml:base="Wet_Day_8.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -18251,7 +18875,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -18650,8 +19274,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -18728,7 +19352,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-m-2282">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -18942,8 +19566,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -18969,7 +19593,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd10-m-2471">
                 <staff n="1" xml:id="wd10-m-2472">
@@ -19014,7 +19638,7 @@
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="wd10-m-2476">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd10-or10-m-2464a">10</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
@@ -19154,7 +19778,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79  #wet-dayW0to11Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79  #wet-dayW0to10Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure right="rptend" xml:id="wd10-m-2563">
                 <staff n="1" xml:id="wd10-m-2564">
@@ -19187,7 +19811,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" vo="10.5mm" xml:id="wd10-m-2575"></octave>
                 <app>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>
@@ -19237,8 +19861,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -19316,15 +19940,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -19904,8 +20528,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -19936,7 +20560,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd7-m-1930">
                 <staff n="1" xml:id="wd7-m-1931">
@@ -19976,7 +20600,7 @@
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="wd7-m-1948">(p) </dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd7-or7-m-1938a">7</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
@@ -20123,8 +20747,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -20201,7 +20825,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-m-2282">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -20415,8 +21039,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -20442,7 +21066,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-994">
                 <staff n="1" xml:id="m-995">
                     <layer n="1" xml:id="m-996">
@@ -20487,7 +21111,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-997">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42"></rdg>
@@ -20638,8 +21262,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -20665,7 +21289,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="m-1069">
                 <staff n="1" xml:id="m-1071">
                     <layer n="1" xml:id="m-1072">
@@ -20735,7 +21359,7 @@
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
                 </app>
             </measure>
         </rdg>
@@ -21250,7 +21874,7 @@
                     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
             <measure right="invis" xml:id="m-1443">
                 <staff n="1" xml:id="m-1444">
                     <layer n="1" xml:id="m-1445">
@@ -21346,8 +21970,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -22041,7 +22665,7 @@
 </section>
                         <section n="8" xml:base="Wet_Day_8.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -22049,7 +22673,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -22448,8 +23072,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -22476,7 +23100,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd5-m-1487">
                 <staff n="1" xml:id="wd5-m-1488">
@@ -22508,7 +23132,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-m-1490">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
@@ -22672,7 +23296,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure n="65" right="rptend" xml:id="wd5-m-1590">
                 <staff n="1" xml:id="wd5-m-1591">
@@ -22758,8 +23382,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -22785,7 +23409,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd10-m-2471">
                 <staff n="1" xml:id="wd10-m-2472">
@@ -22830,7 +23454,7 @@
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="wd10-m-2476">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd10-or10-m-2464a">10</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
@@ -22970,7 +23594,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79  #wet-dayW0to11Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79  #wet-dayW0to10Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure right="rptend" xml:id="wd10-m-2563">
                 <staff n="1" xml:id="wd10-m-2564">
@@ -23003,7 +23627,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" vo="10.5mm" xml:id="wd10-m-2575"></octave>
                 <app>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>
@@ -23045,7 +23669,7 @@
 </section>
                         <section n="6" xml:base="Wet_Day_6.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -23053,7 +23677,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -23116,7 +23740,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-m-1635">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -23452,7 +24076,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="wd6-m-1887">
                 <staff n="1" xml:id="wd6-m-1888">
                     <layer n="1" xml:id="wd6-m-1889">
@@ -23531,8 +24155,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-        <rdg source="#overcast-rainy-nightW0to11T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+        <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+        <rdg source="#overcast-rainy-nightW0to10T42to79 #overcast-rainy-nightW11to25T42to79 #overcast-rainy-nightWgt26T42to79             #overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -24232,8 +24856,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -24259,7 +24883,7 @@
     </app>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="m-1069">
                 <staff n="1" xml:id="m-1071">
                     <layer n="1" xml:id="m-1072">
@@ -24329,7 +24953,7 @@
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                         <dir place="above" staff="1" tstamp="1">repeat two or three times</dir>        
                     </rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                          #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
                 </app>
             </measure>
         </rdg>
@@ -24844,7 +25468,7 @@
                     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
             <measure right="invis" xml:id="m-1443">
                 <staff n="1" xml:id="m-1444">
                     <layer n="1" xml:id="m-1445">
@@ -24934,7 +25558,7 @@
 </section>
                         <section n="6" xml:base="Wet_Day_6.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -24942,7 +25566,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -25005,7 +25629,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-m-1635">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd6-or6-m-1650">6</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -25341,7 +25965,7 @@
     </measure>
     <app>
         
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80             #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
             <measure right="invis" xml:id="wd6-m-1887">
                 <staff n="1" xml:id="wd6-m-1888">
                     <layer n="1" xml:id="wd6-m-1889">
@@ -25418,8 +26042,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -25446,7 +26070,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd5-m-1487">
                 <staff n="1" xml:id="wd5-m-1488">
@@ -25478,7 +26102,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-m-1490">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd5-or5-m-1523a">5</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat three or four times</dir>
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
@@ -25642,7 +26266,7 @@
         </staff>
     </measure>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure n="65" right="rptend" xml:id="wd5-m-1590">
                 <staff n="1" xml:id="wd5-m-1591">
@@ -25722,7 +26346,7 @@
 </section>
                         <section n="8" xml:base="Wet_Day_8.xml">
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="4" clef.shape="F" lines="5" n="1"></staffDef>
@@ -25730,7 +26354,7 @@
                 </staffGrp>
             </scoreDef>
         </rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <scoreDef>
                 <staffGrp n="1" symbol="brace">
                     <staffDef clef.line="2" clef.shape="G" lines="5" n="1"></staffDef>
@@ -26129,8 +26753,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79                      #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -26208,15 +26832,15 @@
         
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
-            <rdg source="#overcast-rainy-nightW0to11Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42 #overcast-rainy-nightW11to25Tlt42 #overcast-rainy-nightWgt26Tlt42"></rdg>
+            <rdg source="#overcast-rainy-nightW0to10Tgt80 #overcast-rainy-nightW11to25Tgt80 #overcast-rainy-nightWgt26Tgt80">
                 <dir place="above" staff="1" tstamp="1">and you may repeat the sonority as desired before continuing.</dir>
                 <dir place="above" staff="1" tstamp="1">At the beginning of each section, you may play each sonority at any volume,</dir>
             </rdg>
         </app>
         
         <app>
-            <rdg source="#overcast-rainy-nightW0to11Tlt42">
+            <rdg source="#overcast-rainy-nightW0to10Tlt42">
                 
                 <dir ho="-1.0391mm" place="below" staff="2" tstamp="1" xml:id="or1-m-57">pedal freely</dir>
                 
@@ -26796,8 +27420,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -26823,7 +27447,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             <measure left="rptstart" right="invis" xml:id="m-994">
                 <staff n="1" xml:id="m-995">
                     <layer n="1" xml:id="m-996">
@@ -26868,7 +27492,7 @@
                 <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="m-997">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="or3-m-1049">3</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat four or five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42"></rdg>
@@ -27019,8 +27643,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -27097,7 +27721,7 @@
         <dynam ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-m-2282">(p)</dynam>
         <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd9-or9-m-2286">9</dir>
         <app>
-            <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
+            <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                  #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80"></rdg>
             <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
                 <dir place="above" staff="1" tstamp="1">repeat anything within this section, but do not repeat as a whole</dir>
             </rdg>
@@ -27311,8 +27935,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -27338,7 +27962,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd10-m-2471">
                 <staff n="1" xml:id="wd10-m-2472">
@@ -27383,7 +28007,7 @@
                 <dynam staff="1" tstamp="1.1953" vo="-8.75mm" xml:id="wd10-m-2476">(p)</dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd10-or10-m-2464a">10</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
@@ -27523,7 +28147,7 @@
     </measure>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79  #wet-dayW0to11Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79  #wet-dayW0to10Tgt80             #wet-dayW011to25Tlt42 #wet-dayW011to25T42to79 #wet-dayW011to25Tgt80">
             
             <measure right="rptend" xml:id="wd10-m-2563">
                 <staff n="1" xml:id="wd10-m-2564">
@@ -27556,7 +28180,7 @@
                 <octave dis="8" dis.place="above" layer="1" staff="2" tstamp="1" vo="10.5mm" xml:id="wd10-m-2575"></octave>
                 <app>
                     <rdg source="#wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80"></rdg>
-                    <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
+                    <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80                         #wet-dayWgt26Tlt42 #wet-dayWgt26T42to79 #wet-dayWgt26Tgt80">
                         <dir place="above" staff="1" tstamp="1">After last repeat let ring with full pedal</dir>
                     </rdg>
                 </app>
@@ -27604,8 +28228,8 @@
         </staffGrp>
     </scoreDef>
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
-        <rdg source="#wet-dayW0to11T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to11Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW11to25Tlt42 #wet-dayWgt26Tlt42"></rdg>
+        <rdg source="#wet-dayW0to10T42to79 #wet-dayW11to25T42to79 #wet-dayWgt26T42to79             #wet-dayW0to10Tgt80 #wet-dayW11to25Tgt80 #wet-dayWgt26Tgt80">
             <measure right="invis">
                 <staff n="1">
                     <layer n="1">
@@ -27636,7 +28260,7 @@
     </app>
     
     <app>
-        <rdg source="#wet-dayW0to11Tlt42 #wet-dayW0to11T42to79 #wet-dayW0to11Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
+        <rdg source="#wet-dayW0to10Tlt42 #wet-dayW0to10T42to79 #wet-dayW0to10Tgt80              #wet-dayW11to25Tlt42 #wet-dayW11to25T42to79 #wet-dayW11to25Tgt80">
             
             <measure left="rptstart" right="invis" xml:id="wd7-m-1930">
                 <staff n="1" xml:id="wd7-m-1931">
@@ -27676,7 +28300,7 @@
                 <dynam ho="-6.0703mm" staff="2" tstamp="1" vo="-10.5547mm" xml:id="wd7-m-1948">(p) </dynam>
                 <dir ho="-1.0391mm" staff="1" tstamp="1" vo="-8.75mm" xml:id="wd7-or7-m-1938a">7</dir>
                 <app>
-                    <rdg source="#wet-dayW0to11Tlt42">
+                    <rdg source="#wet-dayW0to10Tlt42">
                         <dir place="above" staff="1" tstamp="1">Repeat between two and five times</dir>        
                     </rdg>
                     <rdg source="#wet-dayW11to25Tlt42">
