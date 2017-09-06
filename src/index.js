@@ -256,10 +256,11 @@ function getWeatherForPos(position, movement) {
 }
 
 function getTime(data) {
+  console.log(data.currently)
   var now = data.currently.time
   var sunrise = data.daily.data[0].sunriseTime
   var sunset = data.daily.data[0].sunsetTime
-  if (sunrise >= now && now < sunset) {
+  if (sunrise <= now && now < sunset) {
     return 'day'
   } else {
     return 'night'
