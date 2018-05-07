@@ -222,16 +222,16 @@ function bindPageControls(){
        if ( $(event.target).hasClass('form-control') ) {
            return;
        }
-       if ( event.ctrlKey && (event.keyCode == 37) ) {
+       if ( event.ctrlKey && (event.keyCode == 37 || event.keyCode == 33) ) {
            renderPage(1);
        }
-       else if ( event.keyCode == 37 ) {
+       else if ( event.keyCode == 37 || event.keyCode == 33 ) {
            prevPage();
        }
-       else if ( event.ctrlKey && (event.keyCode == 39) ) {
+       else if ( event.ctrlKey && (event.keyCode == 39 || event.keyCode == 34) ) {
            renderPage(vrvToolkit.getPageCount());
        }
-       else if ( event.keyCode == 39 ) {
+       else if ( event.keyCode == 39  || event.keyCode == 34) {
            nextPage();
        }
    });
